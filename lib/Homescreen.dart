@@ -10,7 +10,7 @@ class HomeScreen extends StatelessWidget {
         Text("this is my home"),
         Text("this is my home"),
         Text("this is my home"),
-        Text("this is my home"),
+        ElevatedButton(onPressed: (){}, child: Text("Github")),
       ],
     );
   }
